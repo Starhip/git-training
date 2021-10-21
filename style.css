@@ -1,0 +1,139 @@
+.container {
+	background-color: hsla(0, 100%, 50%, 0.3);
+	font-family: 'Festive', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+	margin: auto 0;
+}
+
+.title {
+	font-weight: bold;
+	margin: 20px;
+}
+
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    font-size: .5em;
+    margin:  0;
+}
+
+@media only screen and (max-width: 600px){
+	.main-nav {
+		font-size: 0.5em;
+		padding: 0;
+	}
+}
+
+.push {
+	margin-left: auto;
+}
+
+.zone {
+	cursor: pointer;
+	font-size: 2em;
+	transition: all 0.3s linear;
+}
+
+a {
+	background-color:hsla(0, 100%, 70%, 0.3);
+	text-decoration: none;
+	border: 1px solid;
+	padding: 20px;
+}
+
+ul {
+	border-bottom: 1px solid;
+	padding: .10px;
+	border-width: 5px;
+}
+
+li {
+	padding: 20px;
+}
+
+/***********************************************************************
+ *  Content
+ **********************************************************************/
+.card {
+	border: 1px solid black;
+	width: max-content;
+	text-align: center;
+	display: inline-block;
+	margin: 5px;
+}
+
+.card img {
+	width: 300px;
+	padding: 5px;
+	background-color: #444;
+    margin: 20px;
+}
+
+
+button {
+	border:  2px solid #ff00;
+	background-color: darkblue;
+	color: white;
+	font-weight: bold;
+	margin: 20px;
+	padding:  5px 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: 0 0 5px 5px rgba(255, 99, 71, 0.5) inset;
+}
+
+.cart {
+	width: 250px;
+	height: 350px;
+	float: right;
+	text-align: center;
+	border:  1px solid black;
+	overflow-y: scroll;
+}
+
+.cartImg > img {
+	width: 200px;
+}
+
+.cart img {
+	width: 300px;
+	padding: 5px;
+}
+
+.cartImg {
+	width: 200px;
+}
+
+.title {
+	font-weight: bold;
+	margin: 20px;
+}
+
+/***********************************************************************
+ *  Content
+ **********************************************************************/
+
+footer {
+    text-align: center;
+    background-color: hsla(0, 100%, 30%, 0.3);
+    border-bottom: 1px solid;
+    font-family: 'Festive', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+
+
+
+
